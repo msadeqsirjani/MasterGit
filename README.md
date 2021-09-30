@@ -189,7 +189,7 @@ $ git commit
 
 ```sh
 # Switching between branches
-$ git swithc branchname
+$ git switch branchname
 
 # Creating a local branch
 $ git checkout -b branchname
@@ -229,6 +229,9 @@ $ git branch
 
 # Viewing remote branches
 $ git branch -r
+
+# Viewing branches related to origin branchs and last commit description
+$ git branch -vv
 
 # Rebase master branch into local branch
 $ git rebase origin/master
