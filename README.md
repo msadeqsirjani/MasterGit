@@ -277,6 +277,8 @@ $ git pull origin master
 
 ```sh
 $ git branch --set-upstream-to=origin/foo foo
+
+$ git branch --track origin/brancname local-tracking-branch
 ```
 
 #### Resetting
