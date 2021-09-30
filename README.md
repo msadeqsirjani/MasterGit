@@ -212,6 +212,9 @@ $ git branch -D branchname
 # Remove any remote refs you have locally that have been removed from your remote (you can substitute <origin> to any remote branch)
 $ git remote prune origin
 
+# Show all remote branchs
+$ git ls-remote
+
 # Viewing all branches, including local and remote branches
 $ git branch -a
 
