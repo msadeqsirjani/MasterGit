@@ -188,8 +188,14 @@ $ git commit
 #### Branching and merging
 
 ```sh
+# Switching between branches
+$ git swithc branchname
+
 # Creating a local branch
 $ git checkout -b branchname
+
+# Creating a local branch
+$ git switch -c branchname
 
 # Switching between 2 branches (in fact, this would work on terminal as well to switch between 2 directories - $ cd -)
 $ git checkout -
@@ -228,7 +234,7 @@ $ git rebase origin/master
 $ git push origin +branchname
 
 # Removing remote origin branch
-$ git push --delete origin <branch>
+$ git push --delete origin branchname
 ```
 
 #### Fetching and checking out remote branches
