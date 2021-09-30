@@ -4,8 +4,6 @@
   align="right"
 />
 
-
-
 # Useful Git Commands
 
 
@@ -228,6 +226,9 @@ $ git rebase origin/master
 
 # Pushing local branch after rebasing master into local branch
 $ git push origin +branchname
+
+# Removing remote origin branch
+$ git push --delete origin <branch>
 ```
 
 #### Fetching and checking out remote branches
